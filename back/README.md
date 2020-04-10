@@ -9,12 +9,14 @@
 - 知识前提:  
 1.mysql基础知识  
 2.go[go语言基础]或java[java语言基础,熟练掌握spring boot]  
+3.go版根据[demo](https://github.com/dreamlu/deercoder-gin) 运行并学习其中gt业务框架,熟练使用其各种快速开发方法  
 
 - 开发过程[如无说明,请以go版为例]  
-1.下载[go版demo](https://github.com/dreamlu/deercoder-gin)或者[java版demo](https://gitlab.com/wobangkj/spring-boot)  
+1.下载[go版demo](https://github.com/dreamlu/deercoder-gin) 或者[java版demo](https://gitlab.com/wobangkj/spring-boot)  
 2.格式化请使用ide自带格式化方式  
 3.变量和函数命名需要语义化  
 4.项目目录结构参考demo  
+5.参数命名规范和语义化,如id,指代当前接口的数据表的id字段,如关联其他表id(外健等),请使用`其他表名+_id`表示  
 n.更多定义和使用需要[严格]参考demo  
 
 - go版demo  
