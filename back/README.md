@@ -28,11 +28,21 @@ n.更多定义和使用需要[严格]参考demo
 - 开发经验[阅读](./开发经验/README.md)  
 
 #### 二.部署运帷  
+- 部署  
 1.单机: docker-compose  最新文档以及脚本参考:[docker-compose](https://github.com/dreamlu/shell/tree/master/docker/docker-compose)  
 ps: 如提供了快照备份, 则不需要上述中脚本备份, 直接执行上述链接中`update.sh`脚本即可  
+2.多服务: 最新文档参考:[k8s](https://github.com/dreamlu/shell/tree/master/docker/k8s) ,ps:注意内存  
 
-2.多服务: 最新文档参考:[k8s](https://github.com/dreamlu/shell/tree/master/docker/k8s)  
+- 运帷  
+1.默认使用云平台自带监控(cpu/内存/流量等);其他监控(待定)  
+2.注意服务器内存,如果内存太小,请限制程序内存占用  
+
+其他:  
+ps: 云开发, 如服务器访问不通, 请优先检查--域名解析/端口开放规则/防火墙/证书是否失效/nginx解析配置等
 
 ### 三.数据备份  
+- 常规备份  
 1.无论客户是否需求,必须默认提供一种备份,快照(推荐,便宜)或脚本(部署运帷中,单机开发的备份脚本)  
-2.脚本备份: 需要根据业务,修改备份时间和时长,默认脚本备份数据保留三天  
+2.脚本备份: 需要根据业务,修改备份时间和时长,默认脚本备份数据保留三天    
+
+- 实时备份(待定)  
