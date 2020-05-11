@@ -44,13 +44,7 @@
 - 状态修改流程  
 > 已发布/待定/对接  
 
-```flow
-st=>start: 新接口(已发布)
-op=>operation: 前端调用后(待定)
-op2=>operation: 接口修改(对接)
-e=>end: 全部状态为待定
-cond=>condition: 接口修改Yes or No?
-st->op->cond->op2
-cond(yes)->e
-cond(no)->op
-&```
+1. 新接口(已发布)
+2. 前端调用后(待定)
+3. 接口修改(对接)
+4. 全部状态为待定
