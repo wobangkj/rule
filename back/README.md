@@ -10,6 +10,8 @@
 1.mysql基础知识  
 2.go[go语言基础]或java[java语言基础,熟练掌握spring boot]  
 3.go版根据[demo](https://github.com/dreamlu/deercoder-gin) 运行并学习其中gt业务框架,熟练使用其各种快速开发方法  
+4.linux操作基础  
+5.docker常见命令  
 
 - 开发过程[如无说明,请以go版为例]  
 1.下载[go版demo](https://github.com/dreamlu/deercoder-gin) 或者[java版demo](https://gitlab.com/wobangkj/spring-boot)  
@@ -19,13 +21,15 @@
 5.变量和函数命名需要语义化  
 6.项目目录结构参考demo  
 7.参数命名规范和语义化,如id,指代当前接口的数据表的id字段,如关联其他表id(外健等),请使用`其他表名+_id`表示  
+8.每一个接口开发完成,必须通过eolinker(在线接口平台)或_test.go(单元测试)的测试  
+9.增删改查常用5个接口名称规范: create/update/delete/search/id, 其他命名语义化  
 n.更多定义和使用需要[严格]参考仿照demo  
 
 - go版demo  
 1.默认提供了admin/客户/等增删改查/后台登录/文件上传等基本接口  
 2.默认提供了使用redis的简要token验证,token要求请求时放入Header中  
 3.更多内容参考demo中README.md  
-4.稳定的开发版本: TODO  
+4.稳定的开发版本: [demo v1.9.1](https://github.com/dreamlu/deercoder-gin/releases/tag/v1.9.1)  
 
 - 开发经验[阅读](./开发经验/README.md)  
 
