@@ -30,7 +30,16 @@ n.更多定义和使用需要[严格]参考仿照demo
 2.默认提供了使用redis的简要token验证,token要求请求时放入Header中  
 3.默认提供了GET请求的mock参数支持  
 4.更多内容参考demo中README.md  
-5.稳定的开发版本: [demo v1.9.1](https://github.com/dreamlu/deercoder-gin/releases/tag/v1.9.1)  
+5.稳定的开发版本: [demo v1.9.3](https://github.com/dreamlu/deercoder-gin/releases/tag/v1.9.3)  
+
+- go版测试  
+1.当前目录下建立`包名_test.go`  
+2.测试的函数方法名要和测试的方法名一一对应  
+3.不得写无限循环之类的测试，测试要有限次  
+4.最后：项目根目录下，执行：  
+`go test ./...` 或 `go test ./... | grep -v 'no test files'`  
+确保输日志全部正确  
+n...
 
 - 开发经验[阅读](./开发经验/README.md)  
 
