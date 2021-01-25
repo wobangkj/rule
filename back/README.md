@@ -10,7 +10,7 @@
 基础|文档|须知
 ---|---|---
 mysql|[文档](https://www.runoob.com/mysql/mysql-tutorial.html)|必须
-golang| [文档](https://www.runoob.com/go/go-tutorial.html)|必须
+golang| [文档](https://github.com/astaxie/build-web-application-with-golang/blob/master/zh/preface.md)|必须
 linux| [文档](https://www.runoob.com/linux/linux-tutorial.html)|必须
 git| [文档](https://www.runoob.com/git/git-tutorial.html)|必须
 docker & docker-compose| [文档](https://www.runoob.com/docker/docker-compose.html)|必须
